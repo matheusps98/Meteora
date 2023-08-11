@@ -1,0 +1,41 @@
+.texto-menor {
+    font-size: 13px;
+}
+
+.divs-facilidades {
+    width: 325px;
+}
+
+.imagem-verde {
+    color: #DAFF01;
+}
+
+.texto-verde {
+    color: #DAFF01;
+}
+
+.btn-primary {
+    background-color: #9353FF !important;
+}
+
+.btn-primary:hover {
+    background-color: #693cb7 !important;
+}
+
+.card {
+    transition: all 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.01);
+}
+
+@media (max-width:360px) {
+    .form-control::placeholder {
+        font-size: 13px;
+    }
+
+    .container-conheça {
+        margin-left: 3rem;
+    }
+}
